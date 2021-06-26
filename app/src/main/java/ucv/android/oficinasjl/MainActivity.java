@@ -3,6 +3,7 @@ package ucv.android.oficinasjl;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -17,6 +18,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import ucv.android.oficinasjl.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button btnSalir;
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
