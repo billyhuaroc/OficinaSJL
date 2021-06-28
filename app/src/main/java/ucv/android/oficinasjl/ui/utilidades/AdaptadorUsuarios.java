@@ -31,6 +31,7 @@ public class AdaptadorUsuarios extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         TextView nombre;
+
         return null;
     }
 }

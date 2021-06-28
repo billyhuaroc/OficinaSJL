@@ -17,23 +17,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="4dp">
-            <TextView
+            <Button
+                android:id="@+id/btn_reunirse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CONTABILIDAD"
-                android:textColor="@color/colorAccent"
+                android:text="REUNIRSE"
                 android:textAllCaps="false"
                 android:padding="6dp"
                 android:layout_weight="1"/>
-            <TextView
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ic_reunirse"
-                android:textAllCaps="false"
-                android:padding="6dp"
-                android:paddingEnd="4dp"
-                android:elevation="16dp"
-                android:onClick="Reunirse"/>
         </LinearLayout>
 
          <androidx.recyclerview.widget.RecyclerView
@@ -54,15 +45,6 @@
                 android:textAllCaps="false"
                 android:padding="6dp"
                 android:layout_weight="1"/>
-            <TextView
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ic_reunirse"
-                android:textAllCaps="false"
-                android:padding="6dp"
-                android:paddingEnd="4dp"
-                android:elevation="16dp"
-                android:onClick="Reunirse"/>
         </LinearLayout>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/usuarios_cafe"
@@ -82,15 +64,6 @@
                 android:textAllCaps="false"
                 android:padding="6dp"
                 android:layout_weight="1"/>
-            <TextView
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/ic_reunirse"
-                android:textAllCaps="false"
-                android:padding="6dp"
-                android:paddingEnd="4dp"
-                android:elevation="16dp"
-                android:onClick="Reunirse"/>
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054454779240",
+    "project_id": "oficinasjl",
+    "storage_bucket": "oficinasjl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054454779240:android:d1e71c1f8ed63976a09add",
+        "android_client_info": {
+          "package_name": "ucv.android.oficinasjl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054454779240-6sfbt9hu5h43st0ud1f1l7fhp1s2m6l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGDR2GvMTU28zmpJ3DtkAOE2-Ctrtratg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054454779240-6sfbt9hu5h43st0ud1f1l7fhp1s2m6l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
